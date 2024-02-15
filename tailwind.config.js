@@ -10,7 +10,7 @@ export default {
         first: '#F4F4F4',
         second: '#6DECB9',
         third: '#11999E',
-        fourth: '#EAD5BC',
+        fourth: '#40514E',
         fifth: '#3C3C3C',
         sixth: '#999999', // Add the darker gray color here
       },

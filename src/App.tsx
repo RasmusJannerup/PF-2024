@@ -8,10 +8,17 @@ function App() {
   return (
     <div className='w-screen h-screen overflow-x-hidden'>
       <div className='w-full h-full flex flex-col'>
-        <Spline
-          scene="https://prod.spline.design/Qi4eAj2zAy7vw4pU/scene.splinecode"
-          className='w-full bg-fifth absolute inset-0 overflow-hidden'
-        />
+        <div onMouseDown={
+          (e) => {
+            e.preventDefault();
+          }
+        }>
+          <Spline
+            scene="https://prod.spline.design/Qi4eAj2zAy7vw4pU/scene.splinecode"
+            className='w-full bg-fifth absolute inset-0 overflow-hidden'
+            onDrag={(e) => { }}
+          />
+        </div>
         <div style={
           {
             height: `${itemHeight}px`
