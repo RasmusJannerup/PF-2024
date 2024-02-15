@@ -7,11 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        first: '#264653',
-        second: '#649D99',
-        third: '#e9c46a',
+        first: '#F4F4F4',
+        second: '#6DECB9',
+        third: '#11999E',
         fourth: '#EAD5BC',
-        fifth: '#e76f51',
+        fifth: '#3C3C3C',
+        sixth: '#999999', // Add the darker gray color here
+      },
+      fontFamily: {
+        bebas: ['Bebas Neue', 'cursive'],
       }
     },
   },
