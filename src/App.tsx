@@ -1,5 +1,5 @@
+import { FacebookOutlined } from '@mui/icons-material';
 import Spline from '@splinetool/react-spline';
-
 function App() {
 
   const screenheight = window.innerHeight;
@@ -46,10 +46,12 @@ function App() {
           {
             height: `${itemHeight}px`
           }
-        } className="w-screen group text-[240px] flex items-center overflow-hidden hover:-translate-x-[0%] translate-x-[50%] transition-all duration-300 bg-third bg-opacity-0 hover:bg-opacity-100 h-full  text-white hover:text-black">
+        } className="w-screen group text-[240px] flex items-center overflow-hidden hover:-translate-x-[0%] translate-x-[50%] transition-all duration-300 bg-third bg-opacity-0 hover:bg-opacity-100 h-full text-white hover:text-black">
           <li className="w-[50%] inline-flex justify-center font-bebas">Contact</li>
-          <li className="w-[50%] inline-flex justify-center font-bebas absolute -left-3 group-hover:opacity-100 opacity-0 transition-all duration-300 text-white ">Contact</li>
-
+          <li className="w-[50%] inline-flex justify-center font-bebas absolute -left-3 bg-transparent group-hover:opacity-100 opacity-0 transition-all duration-300 text-white ">Contact</li>
+          <div className='w-[50%] flex items-center justify-evenly'>
+            <FacebookOutlined className='w-20 h-20' />
+          </div>
         </div>
       </div>
     </div>
